@@ -1,60 +1,36 @@
-# FIDYNEX TECH — Founder Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Founder portfolio website for **FIDYNEX TECH**, built with modern frontend architecture and performance-first design.
+## Getting Started
 
-This project represents the personal founder presence of **Umair Pasha**, outlining vision, journey, and the systems-first mindset behind FIDYNEX TECH.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Purpose
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Establish a professional founder identity
-- Communicate vision, trust, and technical credibility
-- Serve as a long-term digital foundation for FIDYNEX TECH
-- Scale later into an organization-owned ecosystem
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Tech Stack
+## Learn More
 
-- **Framework:** Next.js (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Linting:** ESLint
-- **Architecture:** Component-driven, scalable structure
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Project Structure
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-src/
-├─ app/ # App router pages & layouts
-├─ components/ # Reusable UI & sections
-├─ lib/ # Utilities & constants
-├─ styles/ # Global and shared styles
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## Design Principles
-
-- Minimal, white-first aesthetic
-- Strong typography hierarchy
-- Performance and accessibility first
-- Clean motion (no gimmicks)
-- Future-ready system design
-
----
-
-## Status
-
-🟢 Active development
-This project will evolve as the official founder page and may later be transferred to the FIDYNEX TECH organization.
-
----
-
-## Author
-
-**Umair Pasha**
-Founder & Lead Architect — FIDYNEX TECH
-Building future-ready digital systems with precision, trust, and intent.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
