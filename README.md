@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+FIDYNEX TECH — Founder Page
 
-## Getting Started
+A minimalist, performance-focused founder page built with Next.js, Tailwind CSS, and Framer Motion, designed to represent the philosophy, journey, and engineering discipline behind FIDYNEX TECH.
 
-First, run the development server:
+This project emphasizes clarity, scalability, and long-term maintainability over visual noise or trend-driven design.
 
-```bash
+Overview
+
+The Founder Page serves as a single-page digital identity for Umair Pasha, Founder & Lead Architect of FIDYNEX TECH.
+
+It communicates:
+
+Engineering-first mindset
+System-level thinking
+Brand philosophy and vision
+Long-term technology direction
+
+The design is intentionally minimal, readable, and timeless.
+
+Tech Stack
+Next.js (App Router)
+React 18
+Tailwind CSS v4
+Framer Motion (subtle scroll animations)
+Space Grotesk (brand typography)
+Cloudinary (optimized media assets)
+Features
+One-page, distraction-free layout
+Subtle grid + noise background for depth
+Scroll-based fade-up animations
+SEO-ready metadata configuration
+Fully responsive across devices
+Clean, maintainable component structure
+Zero external UI libraries
+Project Structure
+app/
+├── layout.tsx        # Root layout + SEO + fonts
+├── page.tsx          # Founder page content
+├── globals.css       # Design tokens, grid, noise, animations
+public/
+README.md
+Fonts
+
+The project uses Space Grotesk as the primary brand font, loaded via next/font/google and applied globally using CSS variables.
+
+This ensures:
+
+Consistent typography
+Optimal performance
+No layout shifts
+Background System
+
+The UI uses a layered background approach:
+
+Grid pattern for structure
+Noise overlay for subtle texture
+Works in both light and dark modes
+No images required (pure CSS)
+Animations
+
+Animations are intentionally minimal:
+
+Fade-up motion on scroll
+No excessive transitions
+Performance-safe (GPU friendly)
+Designed to support reading, not distract from it
+SEO & Metadata
+
+The project includes:
+
+Proper title and description
+Open Graph metadata
+Twitter card metadata
+Icon and favicon setup
+
+All metadata is centralized in layout.tsx for maintainability.
+
+Getting Started
+1. Install dependencies
+npm install
+2. Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is production-ready and can be deployed on:
 
-## Learn More
+Vercel (recommended)
+Netlify
+Any Node-compatible hosting
 
-To learn more about Next.js, take a look at the following resources:
+No environment variables required.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Design Philosophy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+FIDYNEX TECH does not chase trends.
+It builds foundations.
 
-## Deploy on Vercel
+This page reflects:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Discipline over decoration
+Systems over shortcuts
+Longevity over hype
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Every decision favors clarity, scalability, and intent.
+
+Author
+
+Umair Pasha
+Founder & Lead Architect
+FIDYNEX TECH
+
+License
+
+This project is proprietary and represents the brand identity of FIDYNEX TECH.
+Unauthorized redistribution or reuse of branding assets is not permitted.
