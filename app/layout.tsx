@@ -8,19 +8,28 @@ const spaceGrotesk = Space_Grotesk({
   display: "swap",
 });
 
-const siteUrl = "https://fidynextech.com";
+const siteUrl = "https://fidynextech-founder.vercel.app";
 const ogImage = "/fidynex-og.svg";
 
 export const metadata: Metadata = {
+  /* ------------------------------
+     Google Search Console
+  -------------------------------- */
   verification: {
-    google: "google-site-verification=google76b4bd54d34fc3e8.html",
+    google: "google76b4bd54d34fc3e8",
   },
 
+  /* ------------------------------
+     Canonical
+  -------------------------------- */
+  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: siteUrl,
   },
-  metadataBase: new URL(siteUrl),
 
+  /* ------------------------------
+     SEO
+  -------------------------------- */
   title: {
     default: "Umair Pasha — Founder & Lead Architect | FIDYNEX TECH",
     template: "%s | FIDYNEX TECH",
@@ -51,6 +60,9 @@ export const metadata: Metadata = {
 
   creator: "Umair Pasha",
 
+  /* ------------------------------
+     Open Graph
+  -------------------------------- */
   openGraph: {
     title: "Umair Pasha — Founder & Lead Architect | FIDYNEX TECH",
     description: "Building premium digital products and scalable systems.",
@@ -67,6 +79,9 @@ export const metadata: Metadata = {
     ],
   },
 
+  /* ------------------------------
+     Twitter
+  -------------------------------- */
   twitter: {
     card: "summary_large_image",
     title: "Umair Pasha — Founder | FIDYNEX TECH",
@@ -74,12 +89,18 @@ export const metadata: Metadata = {
     images: [ogImage],
   },
 
+  /* ------------------------------
+     Site Icons
+  -------------------------------- */
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
 
+  /* ------------------------------
+     Robots
+  -------------------------------- */
   robots: {
     index: true,
     follow: true,
