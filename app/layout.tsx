@@ -12,6 +12,13 @@ const siteUrl = "https://fidynextech.com";
 const ogImage = "/fidynex-og.svg";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "google-site-verification=google76b4bd54d34fc3e8.html",
+  },
+
+  alternates: {
+    canonical: siteUrl,
+  },
   metadataBase: new URL(siteUrl),
 
   title: {
@@ -46,8 +53,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Umair Pasha — Founder & Lead Architect | FIDYNEX TECH",
-    description:
-      "Building premium digital products and scalable systems.",
+    description: "Building premium digital products and scalable systems.",
     url: siteUrl,
     siteName: "FIDYNEX TECH",
     type: "website",
