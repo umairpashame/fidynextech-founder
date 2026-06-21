@@ -12,24 +12,16 @@ const siteUrl = "https://fidynextech-founder.vercel.app";
 const ogImage = "/fidynex-og.svg";
 
 export const metadata: Metadata = {
-  /* ------------------------------
-     Google Search Console
-  -------------------------------- */
+  metadataBase: new URL(siteUrl),
+
   verification: {
-    google: "google76b4bd54d34fc3e8.html",
+    google: "kplmO6H4ryHgLtaSVHUfUqIMs78_O6HfY6cYh2R1rHs",
   },
 
-  /* ------------------------------
-     Canonical
-  -------------------------------- */
-  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: siteUrl,
   },
 
-  /* ------------------------------
-     SEO
-  -------------------------------- */
   title: {
     default: "Umair Pasha — Founder & Lead Architect | FIDYNEX TECH",
     template: "%s | FIDYNEX TECH",
@@ -51,18 +43,10 @@ export const metadata: Metadata = {
     "Digital Products",
   ],
 
-  authors: [
-    {
-      name: "Umair Pasha",
-      url: "https://umairpasha.vercel.app",
-    },
-  ],
+  authors: [{ name: "Umair Pasha", url: "https://umairpasha.vercel.app" }],
 
   creator: "Umair Pasha",
 
-  /* ------------------------------
-     Open Graph
-  -------------------------------- */
   openGraph: {
     title: "Umair Pasha — Founder & Lead Architect | FIDYNEX TECH",
     description: "Building premium digital products and scalable systems.",
@@ -79,9 +63,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  /* ------------------------------
-     Twitter
-  -------------------------------- */
   twitter: {
     card: "summary_large_image",
     title: "Umair Pasha — Founder | FIDYNEX TECH",
@@ -89,18 +70,12 @@ export const metadata: Metadata = {
     images: [ogImage],
   },
 
-  /* ------------------------------
-     Site Icons
-  -------------------------------- */
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
 
-  /* ------------------------------
-     Robots
-  -------------------------------- */
   robots: {
     index: true,
     follow: true,
