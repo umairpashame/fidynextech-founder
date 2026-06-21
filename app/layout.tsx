@@ -16,7 +16,7 @@ export const metadata: Metadata = {
      Google Search Console
   -------------------------------- */
   verification: {
-    google: "google76b4bd54d34fc3e8",
+    google: "google76b4bd54d34fc3e8.html",
   },
 
   /* ------------------------------
